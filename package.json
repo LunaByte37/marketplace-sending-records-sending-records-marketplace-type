@@ -1,0 +1,19 @@
+{
+  "name": "marketplace-sending-records",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/marketplace_service.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/handoff.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
